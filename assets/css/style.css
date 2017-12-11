@@ -1,13 +1,18 @@
 body{
-	background: lighgrey;
+	background-image: url("../images/JZImifq.jpg")
 }
-ul{
-	list-style-type: none;
-	margin:0px;
-	padding:0px;
+
+.jumbotron{
+	background: orange;
+	color: white;
+	text-align: center;
 }
-.question-button::hover{
-	background: black;
+.start{
+	text-align: center;
+}
+span.question-button:hover{
+	
+	background: grey;
 	color:white;
 
 }

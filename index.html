@@ -7,40 +7,54 @@
     <meta charset="UTF-8">
     <title>Trivia</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
     <link rel="stylesheet" href="assets/css/style.css">
+    
+    <!-- Script -->
+    <script src="assets/javascript/app1.js"></script>
   </head>
 
   <body>
 
     <div class="container">
       <div class="row">
-        <div class="col-md-12">
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
           <div class="jumbotron">
-            <h1>Trivia Game</h1>
+            <h1>Totally Trivial Trivia!</h1>
           </div>
         </div>
+        <div class="col-md-2"></div>
+
       </div>
       <div id="main-content" class="row">
-        <div class="col-md-12">
+        <div class="col-md-2"></div>
+        
+        <div id="main" class="col-md-8">
           <div id="time-remaining">Time Remaining: </div>
           <div id="question"></div>
           <div id="message"></div>
           <div id="answer"></div>
           <img src="" alt="" id="answer-img">
-          <ul id="answers-list"></ul>
-
+          <div id="answers-list"></div>
         </div>
+        <div class="col-md-2"></div>
+
+      <div id="summary"></div>    
       </div>
+        <div class="col-md-2"></div>
+        <div class="col-md-8 start">
           <button id="start-game">Start Game</button>
+        </div>
+        <div class="col-md-2"></div>
+
     </div>
 
     
 
-    <!-- jQuery -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
-    <!-- Script -->
-    <script src="assets/javascript/app.js"></script>
+    
 
   </body>
 
